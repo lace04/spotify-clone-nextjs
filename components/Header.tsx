@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 
     if (error) {
       toast.error(error.message);
-    }else{
+    } else {
       toast.success('Logged out!');
     }
   };
@@ -40,7 +40,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
   return (
     <div
       className={twMerge(`
-  h-fit bg-gradient-to-b from-emerald-800 p-6 
+  h-fit bg-gradient-to-b from-green-500 p-6 
   `)}
     >
       <div className='w-full mb-4 flex items-center justify-between'>
