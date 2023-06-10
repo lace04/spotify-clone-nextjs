@@ -24,13 +24,13 @@ export interface Product {
   active?: boolean;
   name?: string;
   description?: string;
-  images?: string;
+  image?: string;
   metadata?: Stripe.Metadata;
 }
 
 export interface Price {
   id: string;
-  productid?: string;
+  product_id?: string;
   active?: boolean;
   description?: string;
   unit_amount?: number;
